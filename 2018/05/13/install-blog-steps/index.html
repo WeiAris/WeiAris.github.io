@@ -79,19 +79,20 @@
 
 
 
-<meta name="description" content="搭建这个博客走了许多弯路。在这里分享总结之后的思路和简化步骤。  Github Pages Hexo 博客框架  部署 Next 主题注册github账号 操作如下1.  注册 Github 账号，然后在 Github 中创建一个以 .github.io 结尾的 Repository。    1.  Repository name: weiaris.github.io    2.  勾选 Init">
+<meta name="description" content="搭建这个博客走了许多弯路。在这里分享总结之后的思路和简化步骤。  Github Pages Hexo 博客框架  部署 Next 主题注册github账号  注册 Github 账号，然后在 Github 中创建一个以 .github.io 结尾的 Repository。 Repository name: weiaris.github.io 勾选 Initialize this repositor">
 <meta name="keywords" content="搭建博客">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何用hexo在github上搭建博客">
 <meta property="og:url" content="https://weiaris.github.io/2018/05/13/install-blog-steps/index.html">
 <meta property="og:site_name" content="hean&#39;s blog">
-<meta property="og:description" content="搭建这个博客走了许多弯路。在这里分享总结之后的思路和简化步骤。  Github Pages Hexo 博客框架  部署 Next 主题注册github账号 操作如下1.  注册 Github 账号，然后在 Github 中创建一个以 .github.io 结尾的 Repository。    1.  Repository name: weiaris.github.io    2.  勾选 Init">
+<meta property="og:description" content="搭建这个博客走了许多弯路。在这里分享总结之后的思路和简化步骤。  Github Pages Hexo 博客框架  部署 Next 主题注册github账号  注册 Github 账号，然后在 Github 中创建一个以 .github.io 结尾的 Repository。 Repository name: weiaris.github.io 勾选 Initialize this repositor">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://weiaris.github.io/2018/05/13/install-blog-steps/3.jpg">
-<meta property="og:updated_time" content="2018-12-27T13:18:43.451Z">
+<meta property="og:image" content="https://weiaris.github.io/2018/05/13/install-blog-steps/3.jpg">
+<meta property="og:updated_time" content="2018-12-27T13:25:56.406Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何用hexo在github上搭建博客">
-<meta name="twitter:description" content="搭建这个博客走了许多弯路。在这里分享总结之后的思路和简化步骤。  Github Pages Hexo 博客框架  部署 Next 主题注册github账号 操作如下1.  注册 Github 账号，然后在 Github 中创建一个以 .github.io 结尾的 Repository。    1.  Repository name: weiaris.github.io    2.  勾选 Init">
+<meta name="twitter:description" content="搭建这个博客走了许多弯路。在这里分享总结之后的思路和简化步骤。  Github Pages Hexo 博客框架  部署 Next 主题注册github账号  注册 Github 账号，然后在 Github 中创建一个以 .github.io 结尾的 Repository。 Repository name: weiaris.github.io 勾选 Initialize this repositor">
 <meta name="twitter:image" content="https://weiaris.github.io/2018/05/13/install-blog-steps/3.jpg">
 
 
@@ -362,12 +363,20 @@
 <p><li>Hexo 博客框架</li> </p>
 <p><li>部署</li></p>
 <p><li>Next 主题</li><br><br><br><br><b>注册github账号</b></p>
-<p>操作如下<br>1.  注册 Github 账号，然后在 Github 中创建一个以 .github.io 结尾的 Repository。<br>    1.  Repository name: weiaris.github.io<br>    2.  勾选 Initialize this repository with a README<br>    3.  Create repository<br>2.  简单地编辑一下 README.md 这个文档。 比如添加：I am trying to create my own blog.. 保存(Commit changes)。<br>3.  打开网页：weiaris.github.io 这里就可以看到 README.md 里的内容了。<br></p>
-
-
+<ol>
+<li>注册 Github 账号，然后在 Github 中创建一个以 .github.io 结尾的 Repository。<ol>
+<li>Repository name: weiaris.github.io</li>
+<li>勾选 Initialize this repository with a README</li>
+<li>Create repository</li>
+</ol>
+</li>
+<li>简单地编辑一下 README.md 这个文档。 比如添加：I am trying to create my own blog.. 保存(Commit changes)。</li>
+<li>打开网页：weiaris.github.io 这里就可以看到 README.md 里的内容了。</li>
+</ol>
 <p>这个生成好的 Repository 就是用来存放博客内容的地方，也只有这个仓库里的内容，才会被 weiaris.github.io 这个网页显示出来。<br>Hexo 是一个博客框架。它把本地文件里的信息生成一个网页。如果不需要放在网上给别人看，就没 Github Pages 什么事了。</p>
-<p><hr><br><b>配置环境</b><br>使用 Hexo 之前，需要先安装 Node.js 和 Git。</p>
-<p><strong>操作如下：</strong></p>
+<hr>
+
+<p><b>配置环境</b><br>使用 Hexo 之前，需要先安装 Node.js 和 Git。</p>
 <ol>
 <li><p>安装 Node.js</p>
 <ul>
@@ -375,9 +384,7 @@
 <li>点击 8.9.1 LTS 下载</li>
 <li>安装</li>
 <li>打开 Command Prompt， 输入  <code>node -v</code></li>
-<li><p>得到：v8.9.1</p>
-<p>安装成功</p>
-</li>
+<li>得到：v8.9.1</li>
 </ul>
 </li>
 <li><p>安装 Git</p>
@@ -389,7 +396,6 @@
 <li>安装</li>
 <li>打开 Command Prompt， 输入  <code>git --version</code></li>
 <li><p>得到：git version 2.15.0.windows.1</p>
-<p>安装成功</p>
 <p>额外说明：如果 Git –version 指令不管用，可能需要到 Environment Variable 那里添加 Path。</p>
 </li>
 </ul>
@@ -478,10 +484,10 @@
 <li>回到 Git Bash。输入  <code>hexo g -d</code>就可以了。<br>先把修改的内容生成网页，再部署。</li>
 </ul>
 </li>
-<li><p>查看成果<br>前往 weiaris.github.io 即可。<br><b>后续继续发布博客</b><br>1、在自己创建的blog路径下，找到..\blog\source_posts，右键打开Git bash here<br>2、输入—hexo new “博文title”<br>3、用合适的.md文件编辑器写好内容（我常用的是sublime）保存<br>4、回到git,输入 hexo g -d，代表生成部署<br>5、等待几秒就可以在浏览器输入网址查看成果了：<a href="http://weiaris.github.io/">http://weiaris.github.io/</a><br><hr><br><b>如何在博文中加入图片</b><br>1.首先确认_config.yml 中有 post_asset_folder:true。Hexo 提供了一种更方便管理 Asset 的设定：post_asset_folder当您设置post_asset_folder为true参数后，在建立文件时，Hexo<br>会自动建立一个与文章同名的文件夹，您可以把与该文章相关的所有资源都放到那个文件夹，如此一来，您便可以更方便的使用资源。<br>2.在hexo的目录下执行npm install <a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">https://github.com/CodeFalling/hexo-asset-image</a> –save（需要等待一段时间）。<br>3.完成安装后用hexo新建文章的时候会发现_posts目录下面会多出一个和文章名字一样的文件夹。图片就可以放在文件夹下面。结构如下：<br><center><img src="/2018/05/13/install-blog-steps/3.jpg" width="100%"></center><br>4、引用图片的方式按照你所用md编辑器语法决定我这里是<!-- <img src="刚刚好/3.jpg" width="100%"> --><br>如果不想每写一篇文章都出现同名的图片文件夹，可以事后删掉，也可以直接把要用的图片放在一个文件夹</p>
+<li><p>查看成果<br>前往 weiaris.github.io 即可。<br><b>后续继续发布博客</b><br>1、在自己创建的blog路径下，找到..\blog\source_posts，右键打开Git bash here<br>2、输入—hexo new “博文title”<br>3、用合适的.md文件编辑器写好内容（我常用的是sublime）保存<br>4、回到git,输入 hexo g -d，代表生成部署<br>5、等待几秒就可以在浏览器输入网址查看成果了：<a href="http://weiaris.github.io/">http://weiaris.github.io/</a><br><hr><br><b>如何在博文中加入图片</b><br>1.首先确认_config.yml 中有 post_asset_folder:true。Hexo 提供了一种更方便管理 Asset 的设定：post_asset_folder当您设置post_asset_folder为true参数后，在建立文件时，Hexo<br>会自动建立一个与文章同名的文件夹，您可以把与该文章相关的所有资源都放到那个文件夹，如此一来，您便可以更方便的使用资源。<br>2.在hexo的目录下执行npm install <a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">https://github.com/CodeFalling/hexo-asset-image</a> –save（需要等待一段时间）。<br>3.完成安装后用hexo新建文章的时候会发现_posts目录下面会多出一个和文章名字一样的文件夹。图片就可以放在文件夹下面。结构如下：<br><center> <img src="/2018/05/13/install-blog-steps/3.jpg" width="100%"></center><br>4、引用图片的方式按照你所用md编辑器语法决定我这里是[<img src="/2018/05/13/install-blog-steps/3.jpg" width="100%">]<br>如果不想每写一篇文章都出现同名的图片文件夹，可以事后删掉，也可以直接把要用的图片放在一个文件夹</p>
 </li>
 </ol>
-<p><i>以上就是本人对前人教程的补充，也在自己在搭建使用过程中的心得~</i></p>
+<p><i><b>以上就是本人对前人教程的补充，也在自己在搭建使用过程中的心得~<b></b></b></i></p>
 
       
     </div>
